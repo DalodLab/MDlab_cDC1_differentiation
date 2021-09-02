@@ -3066,7 +3066,7 @@ enrichR_result_DEGs_UP_clust2_vs_clust1 <- enrichr(DEGs_UP_clust2_vs_clust1, dbs
 ```
 
 ```r
-datatable( enrichR_result_DEGs_UP_clust2_vs_clust1$KEGG_2019_Mouse)
+head( enrichR_result_DEGs_UP_clust2_vs_clust1$KEGG_2019_Mouse)
 ```
 
 ```
