@@ -1,16 +1,3 @@
----
-Author: "Ammar Sabir Cheema"
-output: 
-   html_document:
-     keep_md: true
-     self_contained: true
-date: "03/09/2021"
-chunk_output_type: console
----
-
-
-
-
 ## Chapter Title
 Harnessing single cell RNA sequencing to identify dendritic cell types, characterize their biological states and infer their activation trajectory
 
