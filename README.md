@@ -29,7 +29,7 @@ This github project contains the instructions and material to reproduce the anal
 
 # Datasets used in the analysis
 
-In this analysis following four files were used as input which were obtained from the publication [A conserved dendritic-cell regulatory program limits antitumour immunity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7787191/)
+In this analysis following four files were used as input which were obtained from the publication [A conserved dendritic-cell regulatory program limits antitumour immunity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7787191/).
 
 1. Pre-processed raw counts of scRNAseq data for naïve lungs which can be downloaded from 
 https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832735/suppl/GSM3832735_wt_naive_gex.csv.gz
@@ -57,7 +57,7 @@ https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832738/suppl/GSM3832738_
 
 # Run the Analysis
 
-* First load the provided docker image [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5385611.svg)](https://doi.org/10.5281/zenodo.5385611) after installing docker from (https://docs.docker.com/get-docker/). 
+* First load the provided docker image [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5385611.svg)](https://doi.org/10.5281/zenodo.5385611) after installing docker from (https://docs.docker.com/get-docker/):
 ```
 docker load -i /path_to_Docker_image/MDAlab_cDC1_maturation.tar
 ```
@@ -75,4 +75,4 @@ localhost:8181
 ```
 * The browser will display a RStudio screen asking for username and password. Type the session user and the password (<your_password>) provided to run the container. The RStudio environment will open with all required packages in the correct version already installed.
 
-* Type the code given in the RStudio screen given (here)[https://github.com/SIgN-Bioinformatics/MDlab_cDC1_differentiation/blob/main/scRNAseq_pipeline.md] to reproduce the analysis.
+* Type the code given in the RStudio screen given [here](https://github.com/SIgN-Bioinformatics/MDlab_cDC1_differentiation/blob/main/scRNAseq_pipeline.md) to reproduce the analysis.
