@@ -35,10 +35,10 @@ https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832738/suppl/GSM3832738_
 
 # Prepare the Environments
 
-1. Download “Immgen phase 1” files  that are both necessary for the generation of the signature files used for the Connectivity Map (CMAP) analysis [12], one expression file containing the normalized gene expression data (.gct), one class file providing the cell type identity for each sample/microarray (.cls).
+1. Download “Immgen phase 1” files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511980.svg)](https://doi.org/10.5281/zenodo.5511980) that are both necessary for the generation of the signature files used for the Connectivity Map (CMAP) analysis [12], one expression file containing the normalized gene expression data (.gct), one class file providing the cell type identity for each sample/microarray (.cls).
 
-2. Download two signature files used as inputs for the CMAP analysis, (one for positive and one for negative signatures), in case one wants to skip the signature generation step.
+2. Download two signature files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511975.svg)](https://doi.org/10.5281/zenodo.5511975) used as inputs for the CMAP analysis, (one for positive and one for negative signatures), in case one wants to skip the signature generation step.
 
 3. Download the two .R scripts necessary to run single cell CMAP analyses, in order to assess the enrichment of transcriptomic signatures on single cells, for cell type identification.
     
-4. Although not mandatory, we provide a Docker image in order to simplify the reproducibility of our analyses. 
+4. Although not mandatory, we provide a Docker image [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5385611.svg)](https://doi.org/10.5281/zenodo.5385611) in order to simplify the reproducibility of our analyses. 
