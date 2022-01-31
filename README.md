@@ -8,6 +8,9 @@ Authors: Ammar Sabir Cheema 1, Kaibo Duan 2, Marc Dalod 1, Thien-Phong Vu Manh 1
 
 2 Singapore Immunology Network (SIgN), A*STAR, 8A Biomedical Grove, Singapore 138648, Singapore
 
+Corresponding author: E-mail: [vumanh@ciml.univ-mrs.fr](vumanh@ciml.univ-mrs.fr), [dalod@ciml.univ-mrs.fr](dalod@ciml.univ-mrs.fr)
+
+
 **Summary:** 
 
 <div style="text-align: right">  
@@ -26,7 +29,7 @@ This github project contains the instructions and material to reproduce the anal
 
 # Datasets used in the analysis
 
-In this analysis following four files were used as input
+In this analysis following four files were used as input which were obtained from the publication [A conserved dendritic-cell regulatory program limits antitumour immunity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7787191/)
 
 1. Pre-processed raw counts of scRNAseq data for naïve lungs which can be downloaded from 
 https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832735/suppl/GSM3832735_wt_naive_gex.csv.gz
@@ -43,7 +46,7 @@ https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832738/suppl/GSM3832738_
 
 # Prepare the Environment
 
-1. Download “Immgen phase 1” files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511980.svg)](https://doi.org/10.5281/zenodo.5511980) that are both necessary for the generation of the signature files used for the Connectivity Map (CMAP) analysis [12], one expression file containing the normalized gene expression data (.gct), one class file providing the cell type identity for each sample/microarray (.cls).
+1. Download “Immgen phase 1” files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511980.svg)](https://doi.org/10.5281/zenodo.5511980) that are both necessary for the generation of the signature files used for the (Connectivity Map [CMAP) analysis](https://www.science.org/doi/10.1126/science.1132939?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), one expression file containing the normalized gene expression data (.gct), one class file providing the cell type identity for each sample/microarray (.cls).
 
 2. Download two signature files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511975.svg)](https://doi.org/10.5281/zenodo.5511975) used as inputs for the CMAP analysis, (one for positive and one for negative signatures), in case one wants to skip the signature generation step.
 
