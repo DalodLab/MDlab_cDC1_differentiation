@@ -8,7 +8,7 @@ Authors: Ammar Sabir Cheema 1, Kaibo Duan 2, Marc Dalod 1, Thien-Phong Vu Manh 1
 
 2 Singapore Immunology Network (SIgN), A*STAR, 8A Biomedical Grove, Singapore 138648, Singapore
 
-Corresponding author: E-mail: [vumanh@ciml.univ-mrs.fr](vumanh@ciml.univ-mrs.fr), [dalod@ciml.univ-mrs.fr](dalod@ciml.univ-mrs.fr)
+Corresponding author: E-mail: [vumanh@ciml.univ-mrs.fr](mailto:vumanh@ciml.univ-mrs.fr), [dalod@ciml.univ-mrs.fr](mailto:dalod@ciml.univ-mrs.fr)
 
 
 **Summary:** 
