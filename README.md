@@ -75,4 +75,4 @@ localhost:8181
 ```
 * The browser will display a RStudio screen asking for username and password. Type the session user and the password (<your_password>) provided to run the container. The RStudio environment will open with all required packages in the correct version already installed.
 
-* Type the code given in the RStudio screen given [here](https://github.com/SIgN-Bioinformatics/MDlab_cDC1_differentiation/blob/main/scRNAseq_pipeline.md) to reproduce the analysis.
+* Type the code given in the RStudio screen given [here](https://github.com/DalodLab/MDlab_cDC1_differentiation/blob/main/scRNAseq_pipeline.md) to reproduce the analysis.
