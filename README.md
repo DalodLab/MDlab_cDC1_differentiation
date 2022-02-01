@@ -46,7 +46,7 @@ https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832738/suppl/GSM3832738_
 
 # Prepare the Environment
 
-1. Download “Immgen phase 1” files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511980.svg)](https://doi.org/10.5281/zenodo.5511980) that are both necessary for the generation of the signature files used for the (Connectivity Map [CMAP) analysis](https://www.science.org/doi/10.1126/science.1132939?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), one expression file containing the normalized gene expression data (.gct), one class file providing the cell type identity for each sample/microarray (.cls).
+1. Download “Immgen phase 1” files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511980.svg)](https://doi.org/10.5281/zenodo.5511980) that are both necessary for the generation of the signature files used for the [Connectivity Map (CMAP) analysis](https://www.science.org/doi/10.1126/science.1132939?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed), one expression file containing the normalized gene expression data (.gct), one class file providing the cell type identity for each sample/microarray (.cls).
 
 2. Download two signature files [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5511975.svg)](https://doi.org/10.5281/zenodo.5511975) used as inputs for the CMAP analysis, (one for positive and one for negative signatures), in case one wants to skip the signature generation step.
 
