@@ -63,7 +63,7 @@ docker load -i /path_to_Docker_image/MDAlab_cDC1_maturation.tar
 ```
 * Run the Docker container from the Docker image (Linux and Mac users):
 ```
-docker run --name DC1_maturation -d -p 8181:8787 -v /home/$USER:/home/$USER/ -e USER=$(whoami) -e USERID=$(id -u) -e GROUPID=$(id -g) -e PASSWORD=<your_password> -t MDAlab_cDC1_maturation.tar (Note 3)
+docker run --name DC1_maturation -d -p 8181:8787 -v /home/$USER:/home/$USER/ -e USER=$(whoami) -e USERID=$(id -u) -e GROUPID=$(id -g) -e PASSWORD=<your_password> -t MDAlab_cDC1_maturation.tar
 ```
 * To use this container on a local computer, type in the address bar of your browser:
 ```
