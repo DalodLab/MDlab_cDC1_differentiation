@@ -12,7 +12,7 @@ Harnessing single cell RNA sequencing to identify dendritic cell types, characte
   + the 2 metadata files containing ADT (Antibody-Derived Tags) informations. 
   +  Although not mandatory, we provide a Docker image in order to simplify the reproduction of our analysis. 
   +  2 signature files.
-  +  Immgen phase 1 ? 
+  +  Immgen phase 1. 
  
 ### Download the input files:
 
@@ -55,14 +55,14 @@ Download the Docker images from this link (Zenodo link), load the image:
 
 
 ```r
-docker load -i /path_to_Docker_image/MDAlab_cDC1_maturation.tar
+docker load -i /path_to_Docker_image/mdalab_cdc1_maturation.tar
 ```
 
 Run the docker container from the docker image (Linux and Mac users):
 
 
 ```r
-docker run --name DC1_maturation -d -p 8181:8787 -v /home/$USER:/home/$USER/ -e USER=$(whoami) -e USERID=$(id -u) -e GROUPID=$(id -g) -e PASSWORD=<your_password> -t MDAlab_cDC1_maturation.tar
+docker run --name DC1_maturation -d -p 8181:8787 -v /home/$USER:/home/$USER/ -e USER=$(whoami) -e USERID=$(id -u) -e GROUPID=$(id -g) -e PASSWORD=<your_password> -t mdalab_cdc1_maturation.tar
 ```
 (See Note 9)
 
