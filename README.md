@@ -59,11 +59,11 @@ https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3832nnn/GSM3832738/suppl/GSM3832738_
 
 * First load the provided docker image [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5385611.svg)](https://doi.org/10.5281/zenodo.5385611) after installing docker from (https://docs.docker.com/get-docker/):
 ```
-docker load -i /path_to_Docker_image/MDAlab_cDC1_maturation.tar
+docker load -i /path_to_Docker_image/mdalab_cdc1_maturation.tar
 ```
 * Run the Docker container from the Docker image (Linux and Mac users):
 ```
-docker run --name DC1_maturation -d -p 8181:8787 -v /home/$USER:/home/$USER/ -e USER=$(whoami) -e USERID=$(id -u) -e GROUPID=$(id -g) -e PASSWORD=<your_password> -t MDAlab_cDC1_maturation.tar
+docker run --name DC1_maturation -d -p 8181:8787 -v /home/$USER:/home/$USER/ -e USER=$(whoami) -e USERID=$(id -u) -e GROUPID=$(id -g) -e PASSWORD=<your_password> -t mdalab_cdc1_maturation.tar
 ```
 * To use this container on a local computer, type in the address bar of your browser:
 ```
