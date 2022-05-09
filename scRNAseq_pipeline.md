@@ -1302,8 +1302,8 @@ The cMap algorithm allows evaluating the enrichment of specific gene signatures 
 
 
 ```r
-wget https://github.com/DalodLab/MDlab_cDC1_differentiation/blob/main/data/files_for_cmap_analysis/sgCMAP_score.R
-wget https://github.com/DalodLab/MDlab_cDC1_differentiation/blob/main/data/files_for_cmap_analysis/sgCMAP-internal.R
+wget https://github.com/SIgN-Bioinformatics/sgCMAP_R_Scripts/blob/main/sgCMAP_R_Scripts/sgCMAP_score.R
+wget https://github.com/SIgN-Bioinformatics/sgCMAP_R_Scripts/blob/main/sgCMAP_R_Scripts/sgCMAP-internal.R
 ```
 
 * Source the cMap .R files, by typing in the Rstudio session (same container):
